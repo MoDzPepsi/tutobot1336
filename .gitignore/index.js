@@ -16,7 +16,7 @@ bot.on('ready', () => {
     
     bot.user.setActivity(`!help ${bot.guilds.size} Serveur ! ${bot.users.size}  Utilisateur !`);
     
-    bot.user.setUsername("FunFactionBot");
+    bot.user.setUsername("Varadia");
   console.log('bot connecter !');
 });
 
@@ -76,7 +76,7 @@ message.channel.send(embed)
     if (message.channel.type == "dm") return message.channel.send("tu sais il y a des serveurs pour les commands :joy:"); 
 
   var embed = new Discord.RichEmbed()
-  message.channel.send('ip play.funfaction.ml');
+  message.channel.send('ip play.varadia.cf');
 
 // cc 
 }  else if(message.content === '!youtube') {
