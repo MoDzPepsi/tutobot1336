@@ -60,7 +60,7 @@ message.channel.send(embed)
       }  else if(message.content === '!ts') {
         if (message.channel.type == "dm") return message.channel.send("tu sais il y a des serveurs pour les commands :joy:"); 
 
-      message.channel.send('notre ts c.est : host1.hyperfight.fr:27005')
+      message.channel.send('notre ts c.est : host1.thunderhosting.fr:27005')
 
       var embed = new Discord.RichEmbed()
 
@@ -69,7 +69,7 @@ message.channel.send(embed)
         if (message.channel.type == "dm") return message.channel.send("tu sais il y a des serveurs pour les commands :joy:"); 
 
       var embed = new Discord.RichEmbed()
-      message.channel.send('LE site est en dev  😀 ');
+      message.channel.send('Varadia.ezcraft.fr ');
 
 // cc 
 }  else if(message.content === '!mc') {
