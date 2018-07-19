@@ -14,7 +14,7 @@ var randnum = 0;
 bot.on('ready', () => {
   
     
-    bot.user.setActivity(`!help ${bot.guilds.size} Serveur ! ${bot.users.size}  Utilisateur !`);
+    bot.user.setActivity(`Varadia PvP/Faction`);
     
     bot.user.setUsername("Varadia");
   console.log('bot connecter !');
@@ -360,7 +360,7 @@ if(message.content.startsWith(prefix +'ytsearch')){
                       .addField("Statut", status)
                       .addField("Dernier Message", "\`\`\`" + lastm + "\`\`\`")
                       .addField("Bot ?", checkbot)
-                      .setImage(img/logo.png)
+                      .setImage(Downloads/log.png)
                       message.channel.send(usrembed);
                         }
                                             
