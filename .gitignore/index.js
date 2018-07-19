@@ -360,7 +360,7 @@ if(message.content.startsWith(prefix +'ytsearch')){
                       .addField("Statut", status)
                       .addField("Dernier Message", "\`\`\`" + lastm + "\`\`\`")
                       .addField("Bot ?", checkbot)
-                      .setImage(usr.avatarURL)
+                      .setImage(img/logo.png)
                       message.channel.send(usrembed);
                         }
                                             
