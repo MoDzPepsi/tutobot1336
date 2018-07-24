@@ -76,7 +76,7 @@ message.channel.send(embed)
     if (message.channel.type == "dm") return message.channel.send("tu sais il y a des serveurs pour les commands :joy:"); 
 
   var embed = new Discord.RichEmbed()
-  message.channel.send('ip play.varadia.cf');
+  message.channel.send('ip play.varadia.ml');
 
 // cc 
 }  else if(message.content === '!youtube') {
