@@ -60,7 +60,7 @@ message.channel.send(embed)
       }  else if(message.content === '!ts') {
         if (message.channel.type == "dm") return message.channel.send("tu sais il y a des serveurs pour les commands :joy:"); 
 
-      message.channel.send('notre ts c.est : host1.thunderhosting.fr:27005')
+      message.channel.send('notre ts c.est : ts3.varadia.ml')
 
       var embed = new Discord.RichEmbed()
 
@@ -92,7 +92,7 @@ message.channel.send(embed)
         if (message.channel.type == "dm") return message.channel.send("tu sais il y a des serveurs pour les commands :joy:"); 
 
       var embed = new Discord.RichEmbed()
-      message.channel.send('le twitter https://twitter.com/FunFactionMc');
+      message.channel.send('le twitter https://twitter.com/Varadia');
 
 // cc 
 }  else if(message.content === 'le shop est fermer') {
@@ -107,7 +107,7 @@ message.channel.send(embed)
         if (message.channel.type == "dm") return message.channel.send("tu sais il y a des serveurs pour les commands :joy:"); 
 
       var embed = new Discord.RichEmbed()
-      message.channel.send('Fondateur MoDzPepsi developeur Techeone');
+      message.channel.send('Fondateur MoDzPepsi , awake4air , techone');
    
   }  
 
